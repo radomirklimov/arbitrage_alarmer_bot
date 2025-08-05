@@ -15,3 +15,40 @@ first request
 #  -X POST \
 #  -H "Content-Type: application/json" \
 #  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+
+Ethereum network
+https://etherscan.io
+
+ERC-20: Token Standard:
+https://eips.ethereum.org/EIPS/eip-20
+
+Uniswap docs
+https://docs.uniswap.org
+
+
+IT COULD BE USEFULL FOR THE BOT IF I WANT TO DESPLAY THE TOKEN
+If you also want to get symbol and name, here's a slightly larger ABI you can reuse:
+
+ERC20_META_ABI = [
+    {
+        "name": "decimals",
+        "outputs": [{"type": "uint8"}],
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "name": "symbol",
+        "outputs": [{"type": "string"}],
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "name": "name",
+        "outputs": [{"type": "string"}],
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
