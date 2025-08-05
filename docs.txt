@@ -1,0 +1,17 @@
+TELEGRAM BOT
+username: t.me/arbitrage_alarmer_bot
+token to access the HTTP API: 8312876686:AAEYo8prEArq9eWYIvWgFVCxVv2P6DpNq7s
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+INFURA RIGISTRATION DATA
+Radomir Klimov
+egorovradomir62@gmail.com
+arbitrageIt$6
+API key: 446fe3c4dc9249879ecc7d238670d2ea
+HTTPs: https://mainnet.infura.io/v3/446fe3c4dc9249879ecc7d238670d2ea
+
+first request
+#curl --url https://mainnet.infura.io/v3/446fe3c4dc9249879ecc7d238670d2ea \
+#  -X POST \
+#  -H "Content-Type: application/json" \
+#  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
